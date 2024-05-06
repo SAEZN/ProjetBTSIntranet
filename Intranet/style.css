@@ -1,0 +1,69 @@
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dde5f4;
+  height: 100vh;
+}
+
+.screen-1 {
+  background: #f1f7fe;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+}
+
+.screen-1 .logo {
+  margin-top: -3em;
+}
+
+.screen-1 .login {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: -3em;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2em;
+}
+
+.screen-1 .login input {
+  outline: none;
+  border: none;
+  color: #000;
+}
+
+.screen-1 .login input::-moz-placeholder,
+.screen-1 .login input:-ms-input-placeholder,
+.screen-1 .login input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.screen-1 .login ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+
+.valider {
+  padding: 1em;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
