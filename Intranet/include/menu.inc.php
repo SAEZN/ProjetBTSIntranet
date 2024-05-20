@@ -21,7 +21,7 @@
                 </li>
                 
                 <li>
-                    <a href="PlanningPompier.php" class="nav-link text-white">
+                    <a href="Planning.php" class="nav-link text-white">
                         <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
                         Planning
                     </a>
